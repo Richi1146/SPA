@@ -1,18 +1,124 @@
 {
-    "users": [
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Admin User",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "fullName": "adri",
+      "email": "adri@gmail.com",
+      "password": "adri123",
+      "role": "visitor"
+    },
+    {
+      "id": "4",
+      "fullName": "PepitoGarcia",
+      "email": "pepito@gmail.com",
+      "password": "pepito1234",
+      "role": "visitor"
+    },
+    {
+      "id": "4",
+      "fullName": "Pepito",
+      "email": "pepito@gmail.com",
+      "password": "pepito123",
+      "role": "visitor"
+    },
+    {
+      "id": "6f7359a8-662f-420e-a0df-ec9ead364309",
+      "fullName": "antony",
+      "email": "antony@gmail.com",
+      "password": "antony123",
+      "role": "visitor"
+    }
+  ],
+  "events": [
+    {
+      "id": "e2",
+      "title": "Taller de Inteligencia Artificial",
+      "description": "Taller práctico sobre Machine Learning",
+      "date": "2025-09-01",
+      "time": "14:30",
+      "location": "Online (Zoom)",
+      "capacity": -1,
+      "imageUrl": "https://media.istockphoto.com/id/974238866/es/foto/audiencia-escucha-al-profesor-en-la-conferencia.jpg?s=612x612&w=0&k=20&c=kdiM9d7dWQuHLTycKp-icfLboMQKManiXbqvZwyUZps=",
+      "attendees": [
         {
-        "id" : "1",
-        "fullName": "Admin User",
-        "email": "admin@gmail.com",
-        "password": "admin123",
-        "role": "admin"
-        }, 
+          "userId": "2",
+          "fullName": "adri",
+          "registrationDate": "2025-07-14T15:13:55.852Z"
+        },
         {
-            "id" : "2",
-        "fullName": "adri",
-        "email": "adri@gmail.com",
-        "password": "adri123",
-        "role": "visitor"
+          "userId": "6f7359a8-662f-420e-a0df-ec9ead364309",
+          "fullName": "antony",
+          "registrationDate": "2025-07-15T00:23:35.987Z"
         }
-    ]
+      ]
+    },
+    {
+      "id": "e1",
+      "title": "Conferencia de Desarrollo Web",
+      "description": "ultimas tendencias en desarrollo web",
+      "date": "2025-08-31",
+      "time": "13:00",
+      "location": "Centro de Convenciones",
+      "capacity": 100,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRe06wVyR8krDm6D-vGThqtMPoFvoUSH5Rdg&s",
+      "attendees": [
+        {
+          "userId": "admin_user_id_123",
+          "fullName": "Admin Principal",
+          "registrationDate": "2025-07-14T15:05:59.803Z"
+        },
+        {
+          "userId": "6f7359a8-662f-420e-a0df-ec9ead364309",
+          "fullName": "antony",
+          "registrationDate": "2025-07-15T00:23:37.707Z"
+        }
+      ]
+    },
+    {
+      "id": "e8a40101-4677-4154-8c2e-f0b879a604f2",
+      "title": "Sony ",
+      "description": "Presentación de nuevos juegos",
+      "date": "2025-07-11",
+      "time": "18:00",
+      "location": "Poblado",
+      "capacity": 15,
+      "imageUrl": "https://vendemosfelicidad.com/wp-content/uploads/2020/10/37a912062e0faf9331e0f398d6a1f510.jpg",
+      "attendees": [
+        {
+          "userId": "1",
+          "fullName": "Admin User",
+          "registrationDate": "2025-07-14T22:10:36.569Z"
+        },
+        {
+          "userId": "6f7359a8-662f-420e-a0df-ec9ead364309",
+          "fullName": "antony",
+          "registrationDate": "2025-07-15T00:23:39.890Z"
+        }
+      ]
+    },
+    {
+      "id": "bbfe6b82-2a33-4046-8fc2-793809310aa9",
+      "title": "Habilidades para la vida",
+      "description": "Ven y descubre que habilidades tienes y cuales puedes potenciar",
+      "date": "2025-07-12",
+      "time": "23:29",
+      "location": "Riwi",
+      "capacity": 2,
+      "imageUrl": "https://itcformacionyconsultoria.com/wp-content/uploads/2024/02/habilidades-blandas-o-soft-skills.jpg",
+      "attendees": [
+        {
+          "userId": "1",
+          "fullName": "Admin User",
+          "registrationDate": "2025-07-15T00:25:41.684Z"
+        }
+      ]
+    }
+  ]
 }
