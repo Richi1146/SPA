@@ -1,5 +1,5 @@
 
-import { getCurrentUser, isAuthenticated } from '../auth.js'; 
+import { getCurrentUser, isAuthenticated } from '../auth.js';
 
 /**
  * Componente de la vista de Administración
